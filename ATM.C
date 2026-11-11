@@ -5,7 +5,7 @@ int main()
 int a;
 printf("enter your pin:");
 scanf("%d",&a);
-clrscr
+clrscr();
 if(a==1234)
 {
 printf("payment is succesful\n");
